@@ -1,0 +1,10 @@
+El archivos server.js levanta el WEB SERVICE
+Los archivos parserMongodb-*.js contienen la carga de la coleccion con formato "collection+DD-MM-AA" del archivo procesado el cual recibe como 
+parametro el archivo csv..
+El archivo csv-metaDataTipo.js genera la metaDataTipo recibe como parametro el archivo csv "inter_tipo_csv". Luego este archivo lo usamos como
+metaDataTipo en los parserMongodb-*.js. Este script genera un JSON
+
+archivo csv.. cambio en cantidad de rows, tambien cambio la cantidad de caracteres en el campo medicion.
+Desde esa fecha esta en 16 caracteres.
+Se modifico archivo metaData para agregando una Key.
+Se modifico archivo que valida inter a causa de la nueva modificacion
